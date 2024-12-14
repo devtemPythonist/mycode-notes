@@ -1,5 +1,5 @@
 const WebSocket = require("ws");
-const wss = new WebSocket.Server({ host: "10.142.47.145", port: 3000 });
+const wss = new WebSocket.Server({ host: "10.142.47.223", port: 3000 });
 
 // Ulanuvchilarni saqlayuvchi ro'yxat
 const clients = new Set();
